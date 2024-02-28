@@ -1,10 +1,16 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React, { useState } from 'react';
 import Counter from './components/counter/counter';
+import styles from './app.module.css';
+import { Header } from './components/header/header';
 
 export function App() {
   const [count, setCount] = useState(0);
-  return React.createElement(Counter, { count: count, setCount });
+  return (
+    <div className={styles['main-container']}>
+      <Header />
+    </div>
+  )
 }
 
 export default App;

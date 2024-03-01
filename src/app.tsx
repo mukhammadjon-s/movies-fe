@@ -6,9 +6,10 @@ import { Header } from './components/header/header';
 
 export function App() {
   const [count, setCount] = useState(0);
+  const [search, onSearch] = useState("");
   return (
     <div className={styles['main-container']}>
-      <Header />
+      <Header search={search} onSearch={onSearch} />
     </div>
   )
 }

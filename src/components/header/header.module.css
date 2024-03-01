@@ -40,14 +40,13 @@
 .add-movie-button {
   color: #f65261;
   text-transform: uppercase;
-  /* width: 177px; */
   text-align: center;
   font-size: 16px;
   padding: 10px 20px;
   background-color: white;
   border-radius: 3px;
   background-color: rgba(255, 255, 255, 0.3);
-  cursor: pointer;
+  cursor: pointer !important;
   border: none;
 }
 

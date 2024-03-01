@@ -1,0 +1,20 @@
+.genre-list {
+  list-style: none;
+  padding: 10px 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border-bottom: 2px solid #080707;
+  width: 95%;
+  margin: 10px auto;
+}
+
+.genre-list li {
+  display: inline-block;
+  margin-right: 20px;
+  font-family: Montserrat;
+  cursor: pointer;
+}
+
+.active {
+    border-bottom: 3px solid #F65261;
+}
